@@ -25,7 +25,8 @@
 5.	On the M5Burner select “UIFlow”
   a.	Select the mode to “USB”
 
->You have just finished the setup of your new M5Stack.
+You have just finished the setup of your new M5Stack.
+
 >More info on steps to setup your M5Stack: https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython
 >Documentation on UIFlow MicroPython API: https://docs.m5stack.com/#/en/mpy/mpy_api_list // Select “M5Stack LVGL”
 
