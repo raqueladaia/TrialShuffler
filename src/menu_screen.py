@@ -9,7 +9,7 @@ class MenuScreen:
         The actual UI is built by implementing 'build_ui()'. That
         method is autimatically called when the menu screen is
         activated.
-        
+
         Navigation is supported via the M5Stack buttons A, B, C.
         To enable those buttons, define the list of 'actions' in the
         constructor. Empty strings are treated as no action defined.
@@ -22,7 +22,7 @@ class MenuScreen:
         implement the 'build_response()' and return the desired object.
         This function is autimatically called after the user presses a
         navigation button and returns the value.
-    
+
         USAGE EXAMPLE:
         ##########################################################
         class MyMenu(MenuScreen):
@@ -60,10 +60,6 @@ class MenuScreen:
         pass
 
     def _build_nav_ui(self):
-        for label in self.nav_labels:
-            if label:
-                label.delete()
-
         nav_icons = ('<<', 'O', '>>')
         for i, action, in enumerate(self.actions):
             if action:
